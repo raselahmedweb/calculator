@@ -271,155 +271,70 @@ document.addEventListener("keypress", function(event){
     if(event.key === "Enter"){
         event.preventDefault();
         btnEqual.click();
-        btnEqual.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btnEqual.style.background = ""; 
-        },150);
     }
     if(event.key === "1"){
         event.preventDefault();
         btn1.click();
-        btn1.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn1.style.background = ""; 
-        },150);
     }
     if(event.key === "2"){
         event.preventDefault();
         btn2.click();
-        btn2.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn2.style.background = ""; 
-        },150);
     }
     if(event.key === "3"){
         event.preventDefault();
         btn3.click();
-        btn3.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn3.style.background = ""; 
-        },150);
     }
     if(event.key === "4"){
         event.preventDefault();
         btn4.click();
-        btn4.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn4.style.background = ""; 
-        },150);
     }
     if(event.key === "5"){
         event.preventDefault();
         btn5.click();
-        btn5.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn5.style.background = ""; 
-        },150);
     }
     if(event.key === "6"){
         event.preventDefault();
         btn6.click();
-        btn6.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn6.style.background = ""; 
-        },150);
     }
     if(event.key === "7"){
         event.preventDefault();
         btn7.click();
-        btn7.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn7.style.background = ""; 
-        },150);
     }
     if(event.key === "8"){
         event.preventDefault();
         btn8.click();
-        btn8.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn8.style.background = ""; 
-        },150);
     }
     if(event.key === "9"){
         event.preventDefault();
         btn9.click();
-        btn9.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn9.style.background = ""; 
-        },150);
     }
     if(event.key === "0"){
         event.preventDefault();
         btn0.click();
-        btn0.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btn0.style.background = ""; 
-        },150);
     }
     if(event.key === "+"){
         event.preventDefault();
         btnPlus.click();
-        btnPlus.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btnPlus.style.background = ""; 
-        },150);
     }
     if(event.key === "-"){
         event.preventDefault();
         btnMinus.click();
-        btnMinus.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-            btnMinus.style.background = ""; 
-        },150);
     }
     if(event.key === "/"){
         event.preventDefault();
         btnDevide.click();
-        btnDevide.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-            btnDevide.style.background = ""; 
-        },150);
     }
     if(event.key === "*"){
         event.preventDefault();
         btnMultiply.click();
-        btnMultiply.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btnMultiply.style.background = ""; 
-        },150);
     }
     if(event.key === '.'){
         event.preventDefault();
         btnDot.click();
-        btnDot.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btnDot.style.background = ""; 
-        },150);
     }
     if(event.key === '%'){
         event.preventDefault();
         btnModulus.click();
-        btnModulus.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btnModulus.style.background = ""; 
-        },150);
     }
     
    
@@ -430,67 +345,24 @@ document.addEventListener("keydown", function(event){
     if(event.key === "Backspace"){
         event.preventDefault();
         btnDlt.click();
-        btnDlt.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btnDlt.style.background = ""; 
-        },150);
     }
     if(event.key === "Escape"){
         event.preventDefault();
         btnClear.click();
-        btnClear.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btnClear.style.background = ""; 
-        },150);
     }
     if(event.key === "Delete"){
         event.preventDefault();
         btnClear.click();
-        btnClear.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btnClear.style.background = ""; 
-        },150);
     }
 
     if(event.key === "*" && event.shiftKey){
         event.preventDefault();
         btnExpo.click();
-        btnExpo.style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
-
-        setTimeout(function() {
-          btnExpo.style.background = ""; 
-        },150);
     }
 });
 
+        //document.quyerySelectorAll("button").style.background = "linear-gradient(to bottom, rgb(196, 152, 196), rgb(179, 122, 133))";
 
-
-
-/*
-
-
-
-
-
-
-const sliderContainer = document.querySelector(".sliderImage");
-const imageSlider = document.querySelector(".images");
-
-let position = 0;
-
-function slideImage() {
-    position -= 400; 
-
-    if (position < -((imageSlider.children.length - 1) * 400)) {
-      position = 0;
-    }
-
-    imageSlider.style.transform = translateX(${position}px);
-  }
-
-  setInterval(slideImage, 3000);
-
-  clearInterval(slideImage, 5000) */
+       // setTimeout(function() {
+        //  btnExpo.style.background = ""; 
+      //  },150);
